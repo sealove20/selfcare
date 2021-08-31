@@ -1,3 +1,18 @@
+:root {
+  --primary: #5CA720;
+  --black: #161616;
+  --white: #F9F9F9;
+  --gray: #A5A1A1;
+
+  --small: 1.5rem;
+  --medium: 3rem;
+  --large: 5rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 html,
 body {
   padding: 0;
