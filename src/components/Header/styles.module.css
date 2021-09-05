@@ -16,5 +16,5 @@
 .nav {
   composes: flex from "styles/layout.module.css";
   justify-content: space-between;
-  min-width: 140px;
+  min-width: 110px;
 }
