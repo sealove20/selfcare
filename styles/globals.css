@@ -4,9 +4,12 @@
   --white: #F9F9F9;
   --gray: #A5A1A1;
 
-  --small: 1.5rem;
-  --medium: 3rem;
-  --large: 5rem;
+  --layoutMaxWidth: 90%;
+
+  --mobileDevices: 480px;
+  --tablets: 768px;
+  --laptops: 1024px;
+  --desktops: 1200px;
 }
 
 html {
