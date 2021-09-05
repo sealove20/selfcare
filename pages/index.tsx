@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import { Header } from 'components/Header'
 import { Layout } from 'components/Layout'
+import { Shop } from 'components/Shop'
 import Image from 'next/image'
 
 import banner from 'public/banner.webp'
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <section className={styles.banner}>
         <Image layout="fill" objectFit="cover" src={banner} alt="a logo in star format" />
       </section>
+      <Shop />
     </>
   )
 }
