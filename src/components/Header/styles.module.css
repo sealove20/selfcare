@@ -1,7 +1,8 @@
 .header {
   composes: flex from "styles/layout.module.css";
   justify-content: space-between;
-  width: 100%;
+  width: var(--layoutMaxWidth);
+  margin: 0 auto;
   height: 94px;
 }
 
