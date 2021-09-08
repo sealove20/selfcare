@@ -9,6 +9,7 @@
 
 .promotion {
   font-size: 2.0rem;
+  text-transform: uppercase;
 }
 
 .product {
@@ -16,11 +17,11 @@
 }
 
 .line {
-    border: none;
-    height: 1px;
-    color: var(--gray);
-    background-color: var(--gray);
-    opacity: 0.2;
+  border: none;
+  height: 1px;
+  color: var(--gray);
+  background-color: var(--gray);
+  opacity: 0.2;
 }
 
 @media only screen and (max-width: 600px) {
