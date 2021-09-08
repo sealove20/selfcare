@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import { Header } from 'components/Header'
-import { Layout } from 'components/Layout'
 import { Shop } from 'components/Shop'
 import Image from 'next/image'
 
