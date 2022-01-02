@@ -1,0 +1,28 @@
+.shopCardImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .shopCardImage {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.price {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.cardTitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 5px;
+}
+
+.cardContent {
+  font-size: 1.6rem;
+  margin-top: 5px;
+}
